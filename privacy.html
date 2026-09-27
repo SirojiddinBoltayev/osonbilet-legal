@@ -29,6 +29,7 @@
 <li><b>Yo'lovchi ma'lumotlari:</b> familiya, ism, otasining ismi, jins, tug'ilgan sana, fuqarolik, hujjat (pasport/ID) raqami, pensionerlar uchun JSHSHIR. Bu ma'lumotlar chipta rasmiylashtirish uchun elektron chipta tizimiga uzatiladi va u yerdagi hisobingizda saqlanadi.</li>
 <li><b>To'lov ma'lumotlari:</b> bank karta raqami, amal qilish muddati va SMS tasdiqlash kodi. Ular faqat to'lovni amalga oshirish uchun to'lov jarayoni davomida vaqtincha ishlatiladi va to'lov tizimiga uzatiladi; ilova ularni telefonda saqlamaydi.</li>
 <li><b>Safar ma'lumotlari:</b> yo'nalish, sana, poyezd, vagon va joy tanlovi, bo'sh joy kuzatuvlari, buyurtmalar va chiptalar.</li>
+<li><b>Bildirishnomalar tarixi:</b> sizga yuborilgan xabarlar 90 kun saqlanadi.</li>
 <li><b>Qurilma ma'lumotlari:</b> push-bildirishnoma tokeni (Firebase Cloud Messaging), ilova o'rnatilishi bo'yicha tasodifiy identifikator, platforma (Android) va interfeys tili.</li>
 </ul>
 <p>Ilova joylashuv, kontaktlar, kamera, mikrofon, SMS yoki fayllaringizga kirmaydi va reklama ko'rsatmaydi.</p>
@@ -57,7 +58,7 @@
 <p>Serverdagi sessiya 30 kungacha, qurilma tokeni tizimdan chiqilguncha yoki o'chirish so'rovigacha saqlanadi. Sotib olingan chiptalar ma'lumotlari qonunchilik talabiga ko'ra elektron chipta tizimida saqlanadi.</p>
 
 <h2>6. Ma'lumotlarni o'chirish</h2>
-<p>Tizimdan chiqqaningizda telefondagi ma'lumotlar darhol o'chiriladi. Serverdagi ma'lumotlarni o'chirish tartibi: <a href="delete-data.html#uz">Ma'lumotlarni o'chirish</a> (yoki ilovada: Profil → Ma'lumotlarimni o'chirish).</p>
+<p>Tizimdan chiqqaningizda telefondagi ma'lumotlar darhol o'chiriladi. Serverdagi ma'lumotlarni o'chirish tartibi: <a href="delete-data.html#uz">Ma'lumotlarni o'chirish</a> (yoki ilovada: Profil → Hisobni o'chirish — darhol).</p>
 
 <h2>7. Bolalar</h2>
 <p>Ilova 18 yoshdan katta foydalanuvchilar uchun mo'ljallangan. Bolalar uchun chipta ota-ona yoki vasiy tomonidan rasmiylashtiriladi.</p>
@@ -78,6 +79,7 @@
 <li><b>Данные пассажиров:</b> фамилия, имя, отчество, пол, дата рождения, гражданство, номер документа (паспорт/ID), ПИНФЛ для пенсионеров. Передаются в систему электронных билетов для оформления и хранятся в вашем аккаунте там.</li>
 <li><b>Платёжные данные:</b> номер карты, срок действия и SMS-код. Используются временно только во время оплаты и передаются платёжной системе; приложение не хранит их на телефоне.</li>
 <li><b>Данные о поездках:</b> маршрут, дата, поезд, вагон и место, отслеживания свободных мест, заказы и билеты.</li>
+<li><b>История уведомлений:</b> отправленные вам сообщения хранятся 90 дней.</li>
 <li><b>Данные устройства:</b> токен push-уведомлений (Firebase Cloud Messaging), случайный идентификатор установки, платформа (Android) и язык интерфейса.</li>
 </ul>
 <p>Приложение не получает доступ к геолокации, контактам, камере, микрофону, SMS или файлам и не показывает рекламу.</p>
@@ -106,7 +108,7 @@
 <p>Сессия на сервере — до 30 дней, токен устройства — до выхода из аккаунта или запроса на удаление. Данные о купленных билетах хранятся в системе электронных билетов согласно законодательству.</p>
 
 <h2>6. Удаление данных</h2>
-<p>При выходе из аккаунта данные на телефоне удаляются сразу. Порядок удаления данных на сервере: <a href="delete-data.html#ru">Удаление данных</a> (или в приложении: Профиль → Удалить мои данные).</p>
+<p>При выходе из аккаунта данные на телефоне удаляются сразу. Порядок удаления данных на сервере: <a href="delete-data.html#ru">Удаление данных</a> (или в приложении: Профиль → Удалить аккаунт — сразу).</p>
 
 <h2>7. Дети</h2>
 <p>Приложение предназначено для пользователей старше 18 лет. Билеты для детей оформляют родители или опекуны.</p>
@@ -127,6 +129,7 @@
 <li><b>Passenger data:</b> last name, first name, patronymic, gender, date of birth, citizenship, ID/passport number, and PINFL for pensioners. It is sent to the e-ticket system to issue tickets and is kept in your account there.</li>
 <li><b>Payment data:</b> card number, expiry date and SMS confirmation code. Used temporarily only during payment and passed to the payment system; the app does not store them on the phone.</li>
 <li><b>Trip data:</b> route, date, train, car and seat, seat-availability watches, orders and tickets.</li>
+<li><b>Notification history:</b> messages sent to you are kept for 90 days.</li>
 <li><b>Device data:</b> push notification token (Firebase Cloud Messaging), a random installation identifier, platform (Android) and interface language.</li>
 </ul>
 <p>The app does not access location, contacts, camera, microphone, SMS or files, and shows no ads.</p>
@@ -155,7 +158,7 @@
 <p>The server session is kept for up to 30 days; the device token until you log out or request deletion. Records of purchased tickets are kept in the e-ticket system as required by law.</p>
 
 <h2>6. Data deletion</h2>
-<p>Data on your phone is deleted immediately when you log out. To delete data on our server see <a href="delete-data.html#en">Data deletion</a> (or in the app: Profile → Delete my data).</p>
+<p>Data on your phone is deleted immediately when you log out. To delete data on our server see <a href="delete-data.html#en">Data deletion</a> (or in the app: Profile → Delete account — immediately).</p>
 
 <h2>7. Children</h2>
 <p>The app is intended for users aged 18 and over. Tickets for children are booked by parents or guardians.</p>
